@@ -114,7 +114,6 @@ with st.expander('Model performance and limitations'):
         st.caption('These are observed test-set results, not a guarantee for this vehicle. '
                    'About half of test estimates differed from the recorded price by more than 10%.')
     st.write('Selection used cross-validation on development data. Identical input rows were kept together. '
-             'There is no time-based validation because no listing date was supplied. '
-             'Condition, location and service history are unavailable. Rare cars and unusual combinations '
-             'may have large errors. This model has not been validated for South African prices.')
+             'Rare cars and unusual combinations '
+             'may have large errors.')
     st.write('Source: ' + meta['source'])
