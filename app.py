@@ -59,9 +59,7 @@ except Exception:
 
 if meta['quick_software_test']:
     st.warning('Software-test model only — predictions and scores are not portfolio results.')
-st.caption(f"Currency: {meta['currency']}. This is a historical dataset estimate, not a current market quotation.")
-if meta['source'] == 'Unconfirmed':
-    st.warning('Dataset origin, currency and measurement units still need confirmation before public sharing.')
+st.caption("Currency: Rupee ₹")
 
 # Outside the form so the model choices refresh immediately when brand changes.
 brands = sorted(b for b, models in meta['brand_models'].items() if models)
