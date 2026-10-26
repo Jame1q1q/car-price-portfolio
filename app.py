@@ -116,4 +116,4 @@ with st.expander('Model performance and limitations'):
     st.write('Selection used cross-validation on development data. Identical input rows were kept together. '
              'Rare cars and unusual combinations '
              'may have large errors.')
-    st.write('Source: Vehicle-dataset-from-cardekho'])
+    st.write('Source: Vehicle-dataset-from-cardekho')
